@@ -76,23 +76,95 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic  operations
-
+## 8-bit ALP
 ## Addition  of 8 bit ALP 
-
-
-
+```
+mov  al,60h
+mov bl,20h
+add al,bl
+hlt
+```
 ## Output  
- 
-## Subtraction   of 8 bit numbers  ALP 
- 
+![Screenshot 2025-03-07 131957](https://github.com/user-attachments/assets/3ee51790-5e76-48da-ab96-82c7378ded3a)
+
+## Subtraction of 8 bit ALP
+```
+mov al,60h
+mov bl,20h
+sub al,bl
+hlt
+``` 
 ## Output  
-## Multiplication alp 
- ## Output  
+![Screenshot 2025-03-07 132111](https://github.com/user-attachments/assets/934b5600-521a-4e76-9d53-8c8b587b7c4a)
 
-
-## Division alp 
-
+## Multiplication of 8 bit ALP
+```
+mov al,60h
+mov bl,20h
+mul bl
+hlt
+```
 ## Output  
+![Screenshot 2025-03-07 132242](https://github.com/user-attachments/assets/7b59e8de-f6d4-4c5b-84d9-3ec614cba424)
+
+## Division  of 8 bit ALP
+```
+mov al,60h
+mov bl,20h
+div al
+hlt
+```
+## Output  
+![Screenshot 2025-03-07 132403](https://github.com/user-attachments/assets/4412c90d-2755-4f9a-9cf1-e126f0a4c627)
+
+## AND operation of 8 bit ALP
+```
+mov al,60h
+mov bl,20h
+and al,bl
+hlt
+```
+## Output
+![Screenshot 2025-03-07 132659](https://github.com/user-attachments/assets/858451c3-45e4-4688-8c50-5a5c3b533eb1)
+
+## OR operation of 8 bit ALP
+```
+mov al,60h
+mov bl,20h
+or al,bl
+hlt
+```
+## Output
+![Screenshot 2025-03-07 132839](https://github.com/user-attachments/assets/bdfa42fd-587f-4742-b5c1-708c8bb1b446)
+
+## NOT operation of 8 bit ALP
+```
+mov al,6h
+not al
+hlt
+```
+## Output
+![Screenshot 2025-03-07 132930](https://github.com/user-attachments/assets/3a1984b1-59d2-4267-8524-b6d296ec48d1)
+
+## XOR operation of 8 bit ALP
+```
+mov al,60h
+mov bl,20h
+xor al,bl
+hlt
+```
+## Output
+![Screenshot 2025-03-07 133008](https://github.com/user-attachments/assets/9d45cc77-a86e-47ac-a391-7fcb3cc725b4)
+
+## 16-bit ALP
+## Addition of 16 bit ALP
+```
+mov al,1234h
+mov bl,5678h
+add al,bl
+hlt
+```
+## Output
 
 
 ## Result :
