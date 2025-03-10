@@ -185,6 +185,8 @@ mul ax
 hlt
 ```
 ## Output
+![Screenshot 2025-03-07 133336](https://github.com/user-attachments/assets/c40897a6-834f-455c-bd25-248f9c5fe2eb)
+
 
 ## Division of 16 bit ALP
 ```
@@ -194,6 +196,8 @@ div ax
 hlt
 ```
 ## Output
+![Screenshot 2025-03-07 133400](https://github.com/user-attachments/assets/b127e5c8-6118-493c-88f6-ece8d69ed7a7)
+
 
 ## AND operation of 16 bit ALP
 ```
